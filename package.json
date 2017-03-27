@@ -1,0 +1,20 @@
+{
+  "name": "@lwd/cloudformation-env-file",
+  "version": "0.1.0",
+  "description": "Creates an environment file for Docker Compose using Cloudformation stack resources",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LollyWollyDoodle/cloudformation-env-file.git"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LollyWollyDoodle/cloudformation-env-file/issues"
+  },
+  "homepage": "https://github.com/LollyWollyDoodle/cloudformation-env-file#readme",
+  "dependencies": {
+    "async": "^2.2.0",
+    "aws-sdk": "^2.32.0"
+  }
+}
